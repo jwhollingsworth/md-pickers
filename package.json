@@ -28,9 +28,13 @@
   },
   "homepage": "https://github.com/dpoetzsch/md-pickers",
   "dependencies": {
-    "angular": "~1.5.0 || ~1.6.0",
-    "angular-material": "^1.0.4",
-    "moment": "~2.11.1"
+    "moment": "~2.22.2"
+  },
+  "peerDependencies": {
+    "angular": "1.5 - 1.7.0 || ^1.7.2",
+    "angular-animate": "1.5 - 1.7.0 || ^1.7.2",
+    "angular-aria": "1.5 - 1.7.0 || ^1.7.2",
+    "angular-material": ">=1.1.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
