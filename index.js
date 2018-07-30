@@ -1,6 +1,9 @@
 // Should already be required, here for clarity
 require('angular');
 
+// load global moment
+require('moment');
+
 // Load Angular and dependent libs
 require('angular-animate');
 require('angular-aria');
@@ -8,6 +11,6 @@ require('angular-aria');
 // Now load Angular Material
 require('angular-material');
 
-require ('./dist/mdPickers');
+require('./dist/mdPickers');
 
 module.exports = 'mdPickers';
